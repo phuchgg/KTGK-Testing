@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Report 1,Chrome 86.0.4240.80,,,2020-10-20 17:50:30,2020-10-20 17:50:50,20.308s,FAILED
+,,,,,,,
+Test Cases/Lab01_1,Chrome 86.0.4240.80,,,2020-10-20 17:50:30,2020-10-20 17:50:41,10.959s,FAILED
+"openBrowser("""")",Chrome 86.0.4240.80,,,2020-10-20 17:50:30,2020-10-20 17:50:33,2.975s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 86.0.4240.80,,,2020-10-20 17:50:33,2020-10-20 17:50:37,3.856s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 86.0.4240.80,,,2020-10-20 17:50:37,2020-10-20 17:50:39,1.830s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 86.0.4240.80,,,2020-10-20 17:50:39,2020-10-20 17:50:40,0.913s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 86.0.4240.80,,,2020-10-20 17:50:40,2020-10-20 17:50:41,0.946s,FAILED
+,,,,,,,
+Test Cases/Lab01_2,Chrome 86.0.4240.80,,,2020-10-20 17:50:41,2020-10-20 17:50:50,8.934s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.80,,,2020-10-20 17:50:41,2020-10-20 17:50:43,1.849s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 86.0.4240.80,,,2020-10-20 17:50:43,2020-10-20 17:50:47,3.482s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 86.0.4240.80,,,2020-10-20 17:50:47,2020-10-20 17:50:47,0.829s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 86.0.4240.80,,,2020-10-20 17:50:47,2020-10-20 17:50:48,0.765s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jCzQl+1fxKaRR1aVefRw9x1"")",Chrome 86.0.4240.80,,,2020-10-20 17:50:48,2020-10-20 17:50:49,0.396s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 86.0.4240.80,,,2020-10-20 17:50:49,2020-10-20 17:50:50,1.191s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 86.0.4240.80,,,2020-10-20 17:50:50,2020-10-20 17:50:50,0.122s,PASSED
